@@ -1,35 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
-
 :root{
-    --branco: white;
-    --cor-de-fundo: #020203;
-    --fundo-senha: #081422;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
-}
-
-*{
-    font-weight: 400;
-}
-
-body{
-    color: var(--branco);
-    background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
-}
-
-.titulo-principal{
-    font-family: var(--roboto-mono);
-    font-size: 32px;
-}
-
-.titulo-secundario{
-    font-size: 24px;
-}
-
-.conteudo-titulo{
+    --cor-fundo:#01080E;
+    --cor-principal:#0B0D20;
+    --cor-secundaria:#212333;
+    --cor-destaque:#2BDEFD;
+    --cor-texto:#D7F9FF;
+    }
+    
+    body{
+        background-color: var(--cor-fundo);
+        color: var(--cor-texto);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
     text-align: center;
-    margin-top: 80px;
-}
+    padding: 20px;
+    }
+    
+    h1{
+    color: var(--cor-destaque);
+    
+    }
